@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Variables */
+
+html{
+    --principale:#0065FC;
+    --secondaire: #DEEBFF;
+    --fond: #F2F2F2;
+}

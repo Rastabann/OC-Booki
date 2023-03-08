@@ -445,3 +445,49 @@ main span {
   padding: 15px;
   width: 60%;
 }
+
+/* Section activite */
+
+.main-activite {
+  margin-top: 40px;
+}
+
+.conteneur-carte-activite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 550px;
+  width: 100%;
+  gap: 2.6%;
+  margin: 20px 0 60px;
+}
+
+.conteneur-carte-activite a {
+  position: relative;
+  width: 23%;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.379);
+}
+
+.carte-activite {
+  height: 100%;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  padding-left: 20px;
+  padding-top: 18px;
+  width: 100%;
+  height: 56px;
+  font-weight: 900;
+  color: black;
+  background-color: white;
+}
+
+.grande-carte {
+  height: 550px;
+}

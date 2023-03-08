@@ -1,15 +1,123 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0; 
-    scroll-behavior: smooth;
-    font-family: 'Raleway', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Variables */
 
-html{
-    --principale:#0065FC;
-    --secondaire: #DEEBFF;
-    --fond: #F2F2F2;
+html {
+  --principale: #0065fc;
+  --secondaire: #deebff;
+  --fond: #f2f2f2;
+}
+
+/*********************/
+
+body {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+h1,
+h2 {
+  font-size: clamp(20px, 3vw, 25px);
+}
+
+.centrer-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Header */
+
+.header-accueil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  padding: 0 60px 0 40px;
+}
+
+.header-logo img {
+  width: 120px;
+  object-fit: fill;
+}
+
+/* Nav */
+
+.header-nav {
+  height: 100%;
+}
+
+.liste-nav {
+  height: 100%;
+}
+
+.item-nav {
+  position: relative;
+  height: 100%;
+  margin-left: 100px;
+}
+
+.item-nav a {
+  padding: 10px;
+  font-size: 16px;
+  transition: color 0.4s ease-in-out;
+}
+
+.item-nav a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 3px;
+  background-color: var(--principale);
+  transition: width 0.4s ease-in-out;
+}
+
+.item-nav:hover a {
+  color: var(--principale);
+}
+
+.item-nav a:hover::before {
+  width: 130%;
+}
+
+/* Presentation */
+
+.header-presentation {
+  padding: 0 50px;
+}
+
+.header-logo {
+  margin: 10px 0;
+}
+
+.header-presentation h1 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.header-presentation p {
+  font-size: clamp(13px, 3vw, 17px);
 }

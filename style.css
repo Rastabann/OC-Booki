@@ -611,3 +611,181 @@ footer {
     padding: 50px 20px;
   }
 }
+
+@media (max-width: 992px) {
+  /* Bloc populaire */
+
+  .box-carte-populaire {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Section hebergement */
+
+  .conteneur-hebergement {
+    padding: 20px;
+  }
+
+  .carte-hebergement {
+    width: 48%;
+    height: 300px;
+  }
+
+  .hebergement-img {
+    height: 70%;
+  }
+
+  .charge {
+    padding-top: 20px;
+  }
+
+  /* Section activite */
+
+  .main-activite {
+    margin: 20px 0 0;
+  }
+
+  .conteneur-carte-activite a {
+    width: 100%;
+    height: 250px;
+  }
+
+  /* Footer */
+
+  footer {
+    display: flex;
+    padding: 30px 20px;
+  }
+
+  .footer-infos,
+  .footer-hebergement,
+  .footer-assitance {
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Header */
+
+  .header-accueil {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  nav {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .item-nav {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-bottom: 3px solid var(--fond);
+  }
+
+  .item-nav a::before {
+    top: 100%;
+  }
+
+  .item-nav a:hover::before {
+    width: 100%;
+  }
+
+  /* Formulaire */
+
+  .conteneur-formulaire input[type="search"] {
+    font-size: 14px;
+  }
+
+  form {
+    height: 50px;
+  }
+
+  .btn-form-desktop {
+    display: none;
+  }
+
+  .btn-form-mobile {
+    display: block;
+  }
+
+  /* Filtre */
+
+  .box-filtre {
+    height: 50px;
+  }
+
+  .filtre-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* infos */
+
+  .conteneur-info {
+    align-items: flex-start;
+  }
+
+  .logo-info {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  /* Main */
+
+  main {
+    padding: 0;
+  }
+
+  .main-activite {
+    padding: 0 20px;
+  }
+
+  /* Bloc populaire */
+
+  .conteneur-populaire {
+    padding: 20px;
+    border-radius: 0;
+  }
+
+  /* Section hebergement */
+
+  .conteneur-hebergement {
+    background-color: white;
+  }
+
+  .conteneur-hebergement h2 {
+    margin: 10px 0;
+  }
+
+  .carte-hebergement {
+    width: 100%;
+    height: 230px;
+  }
+
+  .hebergement-img {
+    height: 60%;
+  }
+
+  /* Section activite */
+
+  .conteneur-carte-activite a {
+    height: 200px;
+  }
+
+  /* Footer */
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-infos,
+  .footer-hebergement,
+  .footer-assitance {
+    width: auto;
+    margin: 10px 0;
+  }
+}

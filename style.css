@@ -400,8 +400,9 @@ main span {
 }
 
 .conteneur-populaire-titre::after {
-  content: "\f005";
+  content: "\f201";
   font-family: "FontAwesome";
+  color: var(--principale);
 }
 
 .box-carte-populaire {

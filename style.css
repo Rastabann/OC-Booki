@@ -491,3 +491,34 @@ figcaption {
 .grande-carte {
   height: 550px;
 }
+
+/********************* Footer *********************/
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: var(--fond);
+}
+
+.footer-infos,
+.footer-hebergement,
+.footer-assitance {
+  width: 30%;
+}
+
+.footer-infos h2,
+.footer-hebergement h2,
+.footer-assitance h2 {
+  margin-bottom: 20px;
+}
+
+.item-footer {
+  margin-bottom: 10px;
+  transition: color 0.4s ease-in-out;
+}
+
+.item-footer a:hover {
+  color: var(--principale);
+}

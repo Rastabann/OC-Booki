@@ -379,3 +379,69 @@ main span {
   padding-top: 50px;
   font-weight: 900;
 }
+
+/* Bloc populaire */
+
+.conteneur-populaire {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 40px;
+  border-radius: 30px;
+  background-color: var(--fond);
+}
+
+.conteneur-populaire-titre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.conteneur-populaire-titre::after {
+  content: "\f005";
+  font-family: "FontAwesome";
+}
+
+.box-carte-populaire {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+.box-carte-populaire p {
+  margin-top: 5px;
+}
+
+.box-carte-populaire a {
+  display: flex;
+  width: 100%;
+}
+
+.carte-populaire {
+  display: flex;
+  border: 5px solid #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  min-width: 297px;
+  height: 170px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.379);
+  background-color: rgb(255, 255, 255);
+}
+
+.populaire-img {
+  width: 40%;
+  height: 100%;
+}
+
+.populaire-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  width: 60%;
+}

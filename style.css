@@ -522,3 +522,92 @@ footer {
 .item-footer a:hover {
   color: var(--principale);
 }
+
+/********************* Breakpoints *********************/
+
+@media (max-width: 1496px) {
+  /* Header */
+
+  .header-presentation {
+    padding: 0 20px;
+  }
+
+  .section-recherche {
+    padding: 30px 20px;
+  }
+
+  /* Main */
+
+  main {
+    padding: 0 20px;
+  }
+
+  .main-hebergement {
+    flex-direction: column;
+  }
+
+  .conteneur-hebergement {
+    order: 2;
+    padding: 20px 0;
+    width: 100%;
+    background-color: white;
+  }
+  /* Filtre */
+
+  .box-filtre {
+    margin: 5px 10px 10px 0;
+  }
+
+  .conteneur-filtre h2 {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  /* Bloc populaire */
+
+  .conteneur-populaire {
+    width: 100%;
+  }
+
+  .conteneur-populaire-titre {
+    justify-content: flex-start;
+  }
+
+  .conteneur-populaire-titre {
+    margin-right: 20px;
+  }
+
+  .conteneur-populaire-titre::after {
+    margin-left: 20px;
+  }
+
+  .box-carte-populaire {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .carte-populaire {
+    min-width: 255px;
+    height: 190px;
+  }
+
+  /* Section activite */
+
+  .conteneur-carte-activite {
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    gap: 30px;
+  }
+
+  .conteneur-carte-activite a {
+    width: 20%;
+    height: 300px;
+  }
+
+  /* Footer */
+
+  footer {
+    padding: 50px 20px;
+  }
+}

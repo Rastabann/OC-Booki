@@ -789,3 +789,15 @@ footer {
     margin: 10px 0;
   }
 }
+
+@media (max-width: 1199px) and (min-width: 993px) {
+  .figcap1 {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 1091px) and (min-width: 993px) {
+  .figcap2 {
+    padding-top: 10px;
+  }
+}

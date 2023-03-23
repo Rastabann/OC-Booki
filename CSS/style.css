@@ -150,7 +150,6 @@ form {
 .conteneur-formulaire input[type="search"] {
   max-width: 300px;
   min-width: 160px;
-  width: 100%;
   padding: 20px;
   font-weight: bold;
   font-size: 20px;
@@ -571,7 +570,7 @@ footer {
   }
 
   .conteneur-populaire-titre {
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
   .conteneur-populaire-titre {
@@ -697,11 +696,13 @@ footer {
   /* Formulaire */
 
   .conteneur-formulaire input[type="search"] {
-    font-size: 14px;
+    font-size: 20px;
+    width: 100%;
   }
 
   form {
     height: 50px;
+    justify-content: center;
   }
 
   .btn-form-desktop {
